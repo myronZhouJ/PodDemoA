@@ -14,6 +14,8 @@
 		9CEC59D021781F4100995CD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CEC59CF21781F4100995CD1 /* Assets.xcassets */; };
 		9CEC59D321781F4100995CD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CEC59D121781F4100995CD1 /* LaunchScreen.storyboard */; };
 		9CEC59D621781F4100995CD1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CEC59D521781F4100995CD1 /* main.m */; };
+		9CEC5A022178266D00995CD1 /* PodDemoATestClass1.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CEC5A012178266D00995CD1 /* PodDemoATestClass1.m */; };
+		9CEC5A052178268D00995CD1 /* PodDemoATestClass2.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CEC5A042178268D00995CD1 /* PodDemoATestClass2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,10 @@
 		9CEC59D221781F4100995CD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9CEC59D421781F4100995CD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9CEC59D521781F4100995CD1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9CEC5A002178266D00995CD1 /* PodDemoATestClass1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PodDemoATestClass1.h; sourceTree = "<group>"; };
+		9CEC5A012178266D00995CD1 /* PodDemoATestClass1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PodDemoATestClass1.m; sourceTree = "<group>"; };
+		9CEC5A032178268D00995CD1 /* PodDemoATestClass2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PodDemoATestClass2.h; sourceTree = "<group>"; };
+		9CEC5A042178268D00995CD1 /* PodDemoATestClass2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PodDemoATestClass2.m; sourceTree = "<group>"; };
 		F871845AE35E46946887E829 /* libPods-PodDemoA.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PodDemoA.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -55,6 +61,7 @@
 		9CEC59BA21781F4000995CD1 = {
 			isa = PBXGroup;
 			children = (
+				9CEC59FE2178264900995CD1 /* PodDemoAClass */,
 				9CEC59C521781F4000995CD1 /* PodDemoA */,
 				9CEC59C421781F4000995CD1 /* Products */,
 				BF4A98A00095AD49F47DCE53 /* Pods */,
@@ -84,6 +91,25 @@
 				9CEC59D521781F4100995CD1 /* main.m */,
 			);
 			path = PodDemoA;
+			sourceTree = "<group>";
+		};
+		9CEC59FE2178264900995CD1 /* PodDemoAClass */ = {
+			isa = PBXGroup;
+			children = (
+				9CEC59FF2178264900995CD1 /* Exclude */,
+				9CEC5A002178266D00995CD1 /* PodDemoATestClass1.h */,
+				9CEC5A012178266D00995CD1 /* PodDemoATestClass1.m */,
+				9CEC5A032178268D00995CD1 /* PodDemoATestClass2.h */,
+				9CEC5A042178268D00995CD1 /* PodDemoATestClass2.m */,
+			);
+			path = PodDemoAClass;
+			sourceTree = "<group>";
+		};
+		9CEC59FF2178264900995CD1 /* Exclude */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Exclude;
 			sourceTree = "<group>";
 		};
 		BF4A98A00095AD49F47DCE53 /* Pods */ = {
@@ -192,8 +218,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				9CEC59CB21781F4000995CD1 /* ViewController.m in Sources */,
+				9CEC5A052178268D00995CD1 /* PodDemoATestClass2.m in Sources */,
 				9CEC59D621781F4100995CD1 /* main.m in Sources */,
 				9CEC59C821781F4000995CD1 /* AppDelegate.m in Sources */,
+				9CEC5A022178266D00995CD1 /* PodDemoATestClass1.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
